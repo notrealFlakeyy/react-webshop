@@ -1,13 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/Index.tsx'
-import Shop from './pages/Shop.tsx'
-import Checkout from './pages/Checkout.tsx'
 import './index.css'
 import Layout from './components/Layout.tsx'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Login from './pages/Login.tsx'
-import Register from './pages/Register.tsx'
+import Contact from './pages/Contact.tsx'
+import Booking from './pages/Booking.tsx'
+import KelaTaxi from './pages/KelaTaxi.tsx'
+
+
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -15,10 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Layout>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/shop' element={<Shop />} />
-          <Route path='/checkout' element={<Checkout />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/register' element={<Register />} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/Booking' element={<Booking />} />
+          <Route path='/Kelataxi' element={<KelaTaxi />} />
         </Routes>
       </Layout>
     </Router>
