@@ -9,7 +9,7 @@ import LanguageSelector from './LanguageSelector'
 
 
 const navigation = [
-    { name: 'Etusivu', href: '/sv' },
+    { name: 'Framsidan', href: '/sv' },
     { name: 'Kontakt', href: '/Contact' },
     { name: 'Hur bokar man taxi', href: '/Booking' },
     { name: 'FPA-Taxi', href: '/Kelataxi' },
