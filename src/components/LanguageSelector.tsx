@@ -9,7 +9,7 @@ function classNames(...classes: string[]) {
 export default function LanguageSelector() {
     return (
         <Menu as="div" className="relative inline-block text-left">
-            <div>
+            <div className='w-full bg-gray-900 mt-4'>
                 <Menu.Button className="ml-4 inline-flex w-full justify-center gap-x-1.5 rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 px-3 py-2 text-sm font-semibold text-white ring-1 ring-inset hover:bg-gray-50">
                     Språk
                     <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -25,7 +25,7 @@ export default function LanguageSelector() {
                 leaveFrom="transform opacity-100 scale-100"
                 leaveTo="transform opacity-0 scale-95"
             >
-                <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <Menu.Items className="absolute left-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                     <div className="py-1">
                         <Menu.Item>
                             {({ active }) => (

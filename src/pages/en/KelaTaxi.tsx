@@ -13,8 +13,6 @@ export default function FPATaxi() {
                         <p className='text-2xl text-cyan-300'>0800 500 600</p>
                         <h3>Kela-taxi number in Finnish Ostrobothnia (Vasa Ulataxi)</h3>
                         <p className='text-2xl text-cyan-300'>0800 500 500</p>
-                        <h3>Kela-taxi number Southern Ostrobothnia (Vasa Ulataxi)</h3>
-                        <p className='text-2xl text-cyan-300'>0800 500 100</p>
                     </p>
                     <div className="mt-10 max-w-2xl">
                         <p className='text-xl text-gray-300'>

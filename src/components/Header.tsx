@@ -10,16 +10,18 @@ import LanguageSelector from './LanguageSelector'
 
 const navigation = [
     { name: 'Framsidan', href: '/sv' },
-    { name: 'Kontakt', href: '/sv/Kontakt' },
-    { name: 'Hur bokar man taxi', href: '/sv/Bokning' },
-    { name: 'FPA-Taxi', href: '/sv/Kelataxi' },
+    { name: 'Kontakt', href: '/Contact' },
+    { name: 'Hur bokar man taxi', href: '/Booking' },
+    { name: 'FPA-Taxi', href: '/Kelataxi' },
 ]
 
 export default function Example() {
     return (
-        <Popover as="header" className="relative">
+
+        <Popover as="header" className="relative bg-gray-900">
+            <LanguageSelector />
             <div className="bg-gray-900 p-6">
-                <nav className="relative mx-auto flex max-w-7xl items-center justify-between px-6" aria-label="Global">
+                <nav className="relative mx-auto flex max-w-9xl items-center justify-between px-6" aria-label="Global">
                     <div className="flex flex-1 items-center">
                         <div className="flex w-20 items-center justify-between md:w-auto">
                             <a href="/">
@@ -50,12 +52,12 @@ export default function Example() {
                             ))}
                         </div>
                     </div>
-                    <div className="hidden md:flex md:items-center md:space-x-6">
-                        <a href='tel:063834106' className="text-base font-medium bg-gradient-to-r from-teal-500 to-cyan-600 rounded py-2 px-4 text-white hover:text-gray-300">
-                            <PhoneIcon className='w-8'>063834106</PhoneIcon>
+
+                    <div className="md:flex md:items-center p-5">
+                        <a href='tel:063834106' className="bg-gradient-to-r from-teal-500 to-cyan-600 rounded text-white hover:text-gray-300 md:p-2">
+                            <PhoneIcon className='w-6'>063834106</PhoneIcon>
                         </a>
                     </div>
-                    <LanguageSelector />
                 </nav>
             </div>
 
