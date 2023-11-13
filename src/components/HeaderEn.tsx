@@ -5,7 +5,6 @@ import {
     Bars3Icon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
-import LanguageSelector from './LanguageSelector'
 
 
 const navigation = [
@@ -13,13 +12,14 @@ const navigation = [
     { name: 'Contact', href: '/en/Contact' },
     { name: 'How to book a taxi', href: '/en/Booking' },
     { name: 'FPA-Taxi', href: '/en/Kelataxi' },
+    { name: 'FI', href: '/fi' },
+    { name: 'SV', href: '/sv' },
+    { name: 'EN', href: '/en' },
 ]
 
 export default function Example() {
     return (
-
-        <Popover as="header" className="relative bg-gray-900">
-            <LanguageSelector />
+        <Popover as="header" className="sticky top-0 z-30 bg-gray-900">
             <div className="bg-gray-900 p-6">
                 <nav className="relative mx-auto flex max-w-9xl items-center justify-between px-6" aria-label="Global">
                     <div className="flex flex-1 items-center">
@@ -52,7 +52,6 @@ export default function Example() {
                             ))}
                         </div>
                     </div>
-
                     <div className="md:flex md:items-center p-5">
                         <a href='tel:063834106' className="bg-gradient-to-r from-teal-500 to-cyan-600 rounded text-white hover:text-gray-300 md:p-2">
                             <PhoneIcon className='w-6'>063834106</PhoneIcon>

@@ -18,9 +18,6 @@ import Booking from './pages/en/Booking.tsx'
 import Contact from './pages/en/Contact.tsx'
 import KelaTaxiEn from './pages/en/KelaTaxi.tsx'
 
-
-
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Router>

@@ -12,7 +12,7 @@ export default function Bokning() {
                             <p className="mt-6 text-2xl leading-8 text-white">
                                 Det rekommenderas att boka taxi på förhand.
                             </p>
-                            <p className="text-base mt-7 font-semibold leading-7 text-white">Obs. I en personbil ryms endast fyra passagerare, antalet får inte ens tillfälligt överskridas.</p>
+                            <p className="text-base mt-7 font-semibold leading-7 text-white"></p>
                         </div>
                     </div>
                 </div>

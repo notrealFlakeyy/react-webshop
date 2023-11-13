@@ -29,15 +29,16 @@ const navigation = [
 
 export default function Example() {
     return (
-        <footer className="bg-white">
+        <footer className="bg-white sticky bottom-0 z-20">
             <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
-                <div className="flex justify-center space-x-6 md:order-2">
+                <div className="flex justify-center items-center space-x-6 md:order-2">
                     {navigation.map((item) => (
                         <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
                             {item.icon}
                         </a>
                     ))}
+                    <img src="../../kotkaklubi_tarra2324_digi.png" alt="" className="w-20" />
                 </div>
                 <div className="mt-8 md:order-1 md:mt-0">
                     <p className="text-center text-xs leading-5 text-gray-500">

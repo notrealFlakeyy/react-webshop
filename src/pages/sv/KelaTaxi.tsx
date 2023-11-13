@@ -1,4 +1,3 @@
-import { CheckCircleIcon } from '@heroicons/react/20/solid'
 import LayoutSv from '../../components/LayoutSv'
 
 export default function FPATaxi() {
@@ -17,32 +16,7 @@ export default function FPATaxi() {
                         <p className='text-xl text-gray-300'>
                             Du kan endast få ersättning för resor som beställts från FPA-taxinumret och betala en maximal självrisk på 25 euro för resan, visa FPA-kortet eller identitetsbeviset i början av resan.
                         </p>
-                        <ul role="list" className="mt-8 max-w-xl space-y-8 text-white">
-                            <li className="flex gap-x-3">
-                                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-teal-500" aria-hidden="true" />
-                                <span>
 
-                                </span>
-                            </li>
-                            <li className="flex gap-x-3">
-                                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-teal-500" aria-hidden="true" />
-                                <span>
-
-                                </span>
-                            </li>
-                            <li className="flex gap-x-3">
-                                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-teal-500" aria-hidden="true" />
-                                <span>
-
-                                </span>
-                            </li>
-                            <li className="flex gap-x-3">
-                                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-teal-500" aria-hidden="true" />
-                                <span>
-
-                                </span>
-                            </li>
-                        </ul>
                         <h2 className="mt-16 text-3xl font-bold tracking-tight text-white"></h2>
                         <p className="mt-6">
 

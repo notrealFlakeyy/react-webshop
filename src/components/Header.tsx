@@ -5,23 +5,24 @@ import {
     Bars3Icon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
-import LanguageSelector from './LanguageSelector'
 
 
 const navigation = [
     { name: 'Framsidan', href: '/sv' },
-    { name: 'Kontakt', href: '/Contact' },
-    { name: 'Hur bokar man taxi', href: '/Booking' },
-    { name: 'FPA-Taxi', href: '/Kelataxi' },
+    { name: 'Kontakt', href: '/sv/Kontakt' },
+    { name: 'Hur bokar man taxi', href: '/sv/Bokning' },
+    { name: 'FPA-Taxi', href: '/sv/Kelataxi' },
+    { name: 'FI', href: '/fi' },
+    { name: 'SV', href: '/sv' },
+    { name: 'EN', href: '/en' },
 ]
 
 export default function Example() {
     return (
 
-        <Popover as="header" className="relative bg-gray-900">
-            <LanguageSelector />
+        <Popover as="header" className="sticky top-0 z-30 bg-gray-900">
             <div className="bg-gray-900 p-6">
-                <nav className="relative mx-auto flex max-w-9xl items-center justify-between px-6" aria-label="Global">
+                <nav className="mx-auto flex max-w-9xl items-center justify-between px-6" aria-label="Global">
                     <div className="flex flex-1 items-center">
                         <div className="flex w-20 items-center justify-between md:w-auto">
                             <a href="/">
@@ -40,7 +41,7 @@ export default function Example() {
                                 </Popover.Button>
                             </div>
                         </div>
-                        <div className="hidden space-x-8 md:ml-10 md:flex">
+                        <div className="hidden space-x-8 md:ml-10 md:flex sticky">
                             {navigation.map((item) => (
                                 <a
                                     key={item.name}

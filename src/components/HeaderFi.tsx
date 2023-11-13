@@ -5,7 +5,7 @@ import {
     Bars3Icon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
-import LanguageSelector from './LanguageSelector'
+
 
 
 const navigation = [
@@ -13,13 +13,15 @@ const navigation = [
     { name: 'Yhteistiedot', href: '/fi/Yhteystiedot' },
     { name: 'Varaus', href: '/fi/Varaus' },
     { name: 'Kela-Taxi', href: '/fi/Kelataxi' },
+    { name: 'FI', href: '/fi' },
+    { name: 'SV', href: '/sv' },
+    { name: 'EN', href: '/en' },
 ]
 
 export default function Example() {
     return (
 
-        <Popover as="header" className="relative bg-gray-900">
-            <LanguageSelector />
+        <Popover as="header" className="sticky top-0 z-30 bg-gray-900">
             <div className="bg-gray-900 p-6">
                 <nav className="relative mx-auto flex max-w-9xl items-center justify-between px-6" aria-label="Global">
                     <div className="flex flex-1 items-center">
