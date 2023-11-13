@@ -9,10 +9,10 @@ import LanguageSelector from './LanguageSelector'
 
 
 const navigation = [
-    { name: 'Framsidan', href: '/' },
-    { name: 'Kontakt', href: '/sv/Contact' },
-    { name: 'Hur bokar man taxi', href: '/sv/Booking' },
-    { name: 'FPA-Taxi', href: '/sv/Kelataxi' },
+    { name: 'Front Page', href: '/en' },
+    { name: 'Contact', href: '/en/Contact' },
+    { name: 'How to book a taxi', href: '/en/Booking' },
+    { name: 'FPA-Taxi', href: '/en/Kelataxi' },
 ]
 
 export default function Example() {
@@ -22,7 +22,7 @@ export default function Example() {
                 <nav className="relative mx-auto flex max-w-7xl items-center justify-between px-6" aria-label="Global">
                     <div className="flex flex-1 items-center">
                         <div className="flex w-20 items-center justify-between md:w-auto">
-                            <a href="/">
+                            <a href="/sv">
                                 <span className="sr-only">Oravais Servicetrafik</span>
                                 <img
                                     className="h-12 w-auto sm:h-10"
