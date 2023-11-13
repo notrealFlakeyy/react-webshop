@@ -9,10 +9,10 @@ import LanguageSelector from './LanguageSelector'
 
 
 const navigation = [
-    { name: 'Framsidan', href: '/' },
-    { name: 'Kontakt', href: '/sv/Contact' },
-    { name: 'Hur bokar man taxi', href: '/sv/Booking' },
-    { name: 'FPA-Taxi', href: '/sv/Kelataxi' },
+    { name: 'Etusivu', href: '/sv' },
+    { name: 'Kontakt', href: '/Contact' },
+    { name: 'Hur bokar man taxi', href: '/Booking' },
+    { name: 'FPA-Taxi', href: '/Kelataxi' },
 ]
 
 export default function Example() {
