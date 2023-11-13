@@ -27,8 +27,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path='/' element={<Navigate to="/sv" />} />
         <Route path='/sv' element={<Framsidan />} />
-        <Route path='/sv/Contact' element={<Kontakt />} />
-        <Route path='/sv/Booking' element={<Bokning />} />
+        <Route path='/sv/Kontakt' element={<Kontakt />} />
+        <Route path='/sv/Bokning' element={<Bokning />} />
         <Route path='/sv/Kelataxi' element={<FPATaxiSv />} />
         <Route path='/fi' element={<Etusivu />} />
         <Route path='/fi/Varaus' element={< Varaus />} />
